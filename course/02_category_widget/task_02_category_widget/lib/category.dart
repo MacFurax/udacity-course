@@ -46,6 +46,7 @@ class Category extends StatelessWidget {
     return Material(
       color: Colors.transparent,
       child: Container( 
+        padding: EdgeInsets.all(8.0),
         height: _rowHeight,
         child :InkWell(
           highlightColor: color,
