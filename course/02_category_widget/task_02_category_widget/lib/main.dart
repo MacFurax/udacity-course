@@ -35,7 +35,7 @@ class UnitConverterApp extends StatelessWidget {
           child: Category(
             name:_categoryName,
             color: _categoryColor,
-            iconData: _categoryIcon,
+            icon: _categoryIcon,
           ),
         ),
       ),
