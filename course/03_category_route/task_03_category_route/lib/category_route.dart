@@ -69,6 +69,7 @@ Widget _buildCategoryWisgets(List<Category> categories){
 
     // TODO: Create an App Bar
     final appBar = AppBar(
+      elevation: 0.0,
       centerTitle: true,
       title: Text('Unit Converter', style: TextStyle(fontSize: 30.0, color: Colors.black),),
       backgroundColor: Colors.green[100],
