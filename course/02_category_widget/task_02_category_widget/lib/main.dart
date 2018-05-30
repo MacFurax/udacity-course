@@ -32,10 +32,16 @@ class UnitConverterApp extends StatelessWidget {
         backgroundColor: Colors.green[100],
         body: Center(
           // TODO: Determine what properties you'll need to pass into the widget
+<<<<<<< Updated upstream
           child: Category(
             name:_categoryName,
             color: _categoryColor,
             iconData: _categoryIcon,
+=======
+          child: Category( name: _categoryName,
+            icon: _categoryIcon,
+            color: _categoryColor,
+>>>>>>> Stashed changes
           ),
         ),
       ),
