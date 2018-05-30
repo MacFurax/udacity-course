@@ -57,8 +57,14 @@ class Category extends StatelessWidget {
           },
           child: Row(
             children : <Widget>[
-              Icon(icon, size: 60.0 ),
-              Text(name),
+              Padding(
+                padding: EdgeInsets.only(left:20.0),
+                child: Icon(icon, size: 60.0 ),
+              ),
+              Padding(
+                padding: EdgeInsets.only(left: 10.0),
+                child:Text(name, style: TextStyle( fontSize: 20.0 ),),
+              ),
             ],
           ),
         ),
